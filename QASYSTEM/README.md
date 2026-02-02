@@ -64,8 +64,9 @@ Example:
 ```Data/
  ├── report.pdf
  ├── notes.txt
-
+```
 ---
+
 # ▶️ Run the Chatbot
 
 Start the Streamlit app using:
