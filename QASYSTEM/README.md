@@ -21,19 +21,18 @@ This project allows you to chat with your own documents (PDF/TXT/etc.) using an 
 
 ---
 
+
 ## 📂 Project Structure
 
+```bash
 QASYSTEM/
-│
-├── app.py # Main Streamlit chatbot application
+├── app.py                  # Streamlit chatbot app
+├── Data/                   # Place your documents here
+│   ├── report.pdf
+│   └── notes.txt
+├── .env                    # Gemini API Key
+└── README.md               # Project documentation
 
-├── Data/ # Place your documents here
-│ ├── file1.pdf
-│ ├── file2.txt
-
-│
-├── .env # Contains your Gemini API Key
-└── README.md # Project documentation
 
 
 # 🔑 Setup Gemini API Key
@@ -64,7 +63,7 @@ Example:
 
 Data/
  ├── report.pdf
- 
+
  ├── notes.txt
 
 # ▶️ Run the Chatbot
