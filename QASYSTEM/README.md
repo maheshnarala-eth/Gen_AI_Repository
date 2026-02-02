@@ -43,6 +43,7 @@ GOOGLE_API_KEY=your_actual_gemini_api_key_here
 
 Make sure there are no quotes around the key.
 
+---
 
 # 📥 Add Documents
 
@@ -60,11 +61,11 @@ Markdown files
 
 Example:
 
-Data/
+```Data/
  ├── report.pdf
-
  ├── notes.txt
 
+---
 # ▶️ Run the Chatbot
 
 Start the Streamlit app using:
