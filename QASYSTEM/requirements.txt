@@ -2,6 +2,8 @@ llama-index
 google-genai
 llama-index-llms-google-genai
 llama-index-embeddings-google-genai
+llama-index-embeddings-huggingface
+sentence-transformers
 pypdf
 python-dotenv
 IPython
