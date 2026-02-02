@@ -32,9 +32,8 @@ QASYSTEM/
 │   └── notes.txt
 ├── .env                    # Gemini API Key
 └── README.md               # Project documentation
-
-
-
+```
+---
 # 🔑 Setup Gemini API Key
 
 Create a .env file inside the project folder:
