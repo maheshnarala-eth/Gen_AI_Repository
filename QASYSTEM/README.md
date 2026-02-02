@@ -26,9 +26,11 @@ This project allows you to chat with your own documents (PDF/TXT/etc.) using an 
 QASYSTEM/
 │
 ├── app.py # Main Streamlit chatbot application
+
 ├── Data/ # Place your documents here
 │ ├── file1.pdf
 │ ├── file2.txt
+
 │
 ├── .env # Contains your Gemini API Key
 └── README.md # Project documentation
@@ -44,7 +46,7 @@ GOOGLE_API_KEY=your_actual_gemini_api_key_here
 Make sure there are no quotes around the key.
 
 
-📥 Add Documents
+# 📥 Add Documents
 
 Place your documents inside the Data/ folder:
 
@@ -62,9 +64,10 @@ Example:
 
 Data/
  ├── report.pdf
+ 
  ├── notes.txt
 
-▶️ Run the Chatbot
+# ▶️ Run the Chatbot
 
 Start the Streamlit app using:
 
